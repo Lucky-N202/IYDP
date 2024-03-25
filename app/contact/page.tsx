@@ -1,5 +1,5 @@
-import { Head } from 'next/document'
-import Link from 'next/link'
+
+
 import React from 'react'
 import DrawOutlineButton from '../components/drawoutlinebtn'
 
