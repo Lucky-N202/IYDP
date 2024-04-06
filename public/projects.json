@@ -1,0 +1,31 @@
+
+[
+    {
+      "id": 1,
+      "title": "Youth Empowerment Program",
+      "description": "Providing workshops and mentorship to empower youth from underserved communities to pursue higher education and career opportunities.",
+      "image": "/images/image100.jfif",
+      "goals": ["Increase high school graduation rates", "Provide mentorship for college and career readiness", "Equip youth with essential skills"],
+      "outcomes": ["Increased college enrollment", "Higher job placement", "Positive impact on community development"],
+      "tags": ["Education", "Youth Empowerment", "Community Development"]
+    },
+    {
+      "id": 2,
+      "title": "Environmental Conservation Project",
+      "description": "Engaging youth in environmental awareness campaigns, clean-up activities, and sustainable initiatives to preserve natural resources.",
+      "image": "/images/image200.jfif",
+      "goals": ["Raise awareness about environmental issues", "Implement eco-friendly practices", "Promote responsible stewardship"],
+      "outcomes": ["Reduction in pollution and waste", "Preservation of biodiversity", "Community involvement and advocacy"],
+      "tags": ["Environmental Conservation", "Youth Engagement", "Sustainability"]
+    },
+    {
+      "id": 3,
+      "title": "Digital Skills Training Program",
+      "description": "Offering training sessions and resources to equip youth with digital literacy skills and prepare them for the digital workforce.",
+      "image": "/images/image300.jfif",
+      "goals": ["Bridge the digital divide", "Empower youth with digital skills", "Foster innovation and entrepreneurship"],
+      "outcomes": ["Increased digital literacy", "Higher employability", "Promotion of digital innovation"],
+      "tags": ["Digital Skills", "Youth Development", "Technology"]
+    }
+  ]
+  

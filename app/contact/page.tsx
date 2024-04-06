@@ -34,7 +34,7 @@ function Contact() {
       <div className=" bg-gradient-to-t from-blue-950 to-white text-blue-750 p-6  rounded-lg shadow-md">
         <h2 className="text-2xl  font-bold mb-4">Contact Information</h2>
         <p className="text-lg font-semibold mb-2">Address</p>
-        <p className="mb-4">Adcumulate street, Pretoria, South Africa</p>
+        <p className="mb-4">1302 Block T Soshanguve BLOCK T</p>
         <p className="text-lg font-semibold mb-2">Phone</p>
         <p className="mb-4">076 792 0006</p>
         <p className="text-lg font-semibold mb-2">Email</p>

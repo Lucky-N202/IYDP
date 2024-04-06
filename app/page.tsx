@@ -1,4 +1,4 @@
-import Header from "@/app/header/page";
+
 import Contact from "@/app/contact/page";
 import About from "@/app/about/page"
 import Projects from "@/app/projects/page";
@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className=" shadow-lg ">
-       <Header  />
+       
 
        
         <div className="flex justify-center items-center ">
