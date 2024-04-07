@@ -6,7 +6,7 @@ import Footer from "./footer/page";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Suspense } from "react";
-import Loading from "./projects/Loading";
+import Loading from "./projects/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
