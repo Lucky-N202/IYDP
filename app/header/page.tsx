@@ -35,7 +35,7 @@ function Header() {
 
   return (
     
-         <header className=" bg-white m-4 shadow-md rounded-lg">
+    <header className=" bg-white m-4 shadow-md rounded-lg">
       {/* Navbar */}
       <nav className="container mx-auto flex items-center justify-between py-4">
         {/* Logo */}

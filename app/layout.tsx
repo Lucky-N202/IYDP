@@ -5,6 +5,8 @@ import Header from "./header/page";
 import Footer from "./footer/page";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Suspense } from "react";
+import Loading from "./projects/Loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +25,10 @@ export default function RootLayout({
       
       <body className={inter.className}>
         <Header /> 
-        {children}
+        <Suspense fallback={<Loading />}>
+          {children}
+        </Suspense>
+        
         <Analytics />
         <SpeedInsights />
         <Footer />
