@@ -11,9 +11,9 @@ const Projects = () => {
 
   return (
     
-    <div className="container mx-auto py-8 ">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Our Projects</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+    <div className="container mx-auto py-8">
+        <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Our Projects</h1>
+        <div className="grid grid-cols-1 px-4 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map(project => (
             <div key={project.id} className=" rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105  bg-gradient-to-b from-blue-950 to-white">
               <Image src={project.image} alt={project.title} width={1000} height={1000} className="  "  />

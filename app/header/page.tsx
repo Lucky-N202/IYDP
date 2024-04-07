@@ -3,8 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-import logo from "@/public/images/logo.jpg"
-import hero from "@/public/images/hero.jpg"
+import logo from "@/public/images/logo.png"
 import { useEffect, useState } from "react";
 
 
@@ -13,9 +12,6 @@ function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     useEffect(() => {
-      const toggleNav = () => {
-        setIsNavOpen(!isNavOpen);
-      };
   
       // Event listener for closing the navigation when clicking outside the menu
       const handleClickOutside = (event: MouseEvent) => {
@@ -67,7 +63,7 @@ function Header() {
 
       {/* Hero Image */}
       <div className="relative h-64 md:h-96 shadow-md ">
-        <Image src={hero} alt="Hero Image" className="object-cover w-full h-full rounded-lg" />
+        <Image src="/images/heros.jfif" alt="Hero Image" width={1000} height={1000} className="object-cover w-full h-full rounded-lg" />
         <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <h2 className="text-white text-4xl md:text-5xl font-bold tracking-wide">Empowering Youth for a Brighter Future</h2>
